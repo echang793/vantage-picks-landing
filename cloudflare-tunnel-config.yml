@@ -1,0 +1,18 @@
+# ~/.cloudflared/config.yml
+# Replace YOURDOMAIN with your actual .space domain name.
+# Run: cloudflared tunnel run vantage-picks
+
+tunnel: vantage-picks
+credentials-file: /Users/erichang/.cloudflared/<TUNNEL-UUID>.json
+
+ingress:
+  # CFB Playbook  (dashboard.py :8765)
+  - hostname: cfb.YOURDOMAIN.space
+    service: http://127.0.0.1:8765
+
+  # UFC Octagon   (pwa_server.py :8766)
+  - hostname: ufc.YOURDOMAIN.space
+    service: http://127.0.0.1:8766
+
+  # Fallback — Cloudflare handles vantage.space root via Pages (see below)
+  - service: http_status:404
