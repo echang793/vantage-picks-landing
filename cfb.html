@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CFB Playbook — Vantage Picks</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root { --accent: #c8b46a; --win: #6fae6f; --loss: #d17a6a; }
+
+  body {
+    background: #0d0f14;
+    color: #f1ede3;
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 48px;
+  }
+
+  .wordmark {
+    font-size: clamp(11px, 2vw, 14px);
+    letter-spacing: .35em;
+    text-transform: uppercase;
+    color: rgba(241,237,227,.45);
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+
+  .back {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: .1em;
+    margin-bottom: 20px;
+    opacity: .8;
+  }
+  .back:hover { opacity: 1; }
+
+  h1 {
+    font-size: clamp(24px, 6vw, 40px);
+    font-weight: 700;
+    letter-spacing: .04em;
+    color: #f1ede3;
+    margin-bottom: 6px;
+  }
+
+  .tagline {
+    font-size: 11px;
+    color: rgba(241,237,227,.4);
+    letter-spacing: .1em;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .wrap { width: 100%; max-width: 640px; }
+
+  .stats-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .stat {
+    flex: 1 1 130px;
+    background: #13161d;
+    border: 1px solid rgba(241,237,227,.1);
+    border-radius: 4px;
+    padding: 14px 12px;
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label {
+    font-size: 9px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: rgba(241,237,227,.4);
+    margin-top: 4px;
+  }
+  .pos { color: var(--win); }
+  .neg { color: var(--loss); }
+
+  section { margin-bottom: 28px; }
+
+  .section-title {
+    font-size: 11px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(241,237,227,.1);
+  }
+
+  .pick-list { display: flex; flex-direction: column; gap: 6px; }
+
+  .pick-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #13161d;
+    border: 1px solid rgba(241,237,227,.08);
+    border-left: 3px solid rgba(241,237,227,.15);
+    border-radius: 3px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  .pick-row.win  { border-left-color: var(--win); }
+  .pick-row.loss { border-left-color: var(--loss); }
+
+  .pick-badge {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    padding: 2px 6px;
+    border: 1px solid rgba(241,237,227,.25);
+    border-radius: 2px;
+    color: rgba(241,237,227,.6);
+    white-space: nowrap;
+  }
+  .pick-badge.win  { color: var(--win);  border-color: var(--win); }
+  .pick-badge.loss { color: var(--loss); border-color: var(--loss); }
+
+  .pick-main { flex: 1; min-width: 0; }
+  .pick-game { font-weight: 700; }
+  .pick-lean { color: rgba(241,237,227,.5); font-size: 11px; margin-top: 2px; }
+
+  .pick-num {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .empty {
+    font-size: 11px;
+    color: rgba(241,237,227,.35);
+    padding: 14px 12px;
+    background: #13161d;
+    border: 1px solid rgba(241,237,227,.08);
+    border-radius: 3px;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 10px;
+    letter-spacing: .15em;
+    color: rgba(241,237,227,.25);
+    text-align: center;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="wordmark">Vantage Analytics</div>
+<a class="back" href="index.html">&larr; Vantage Picks</a>
+<h1>CFB Playbook</h1>
+<p class="tagline" id="updated">Loading…</p>
+
+<div class="wrap">
+  <div class="stats-row" id="stats"></div>
+
+  <section>
+    <div class="section-title">Strong Picks</div>
+    <div class="pick-list" id="strong"></div>
+  </section>
+
+  <section>
+    <div class="section-title">Moderate &middot; Watch Only</div>
+    <div class="pick-list" id="moderate"></div>
+  </section>
+
+  <section>
+    <div class="section-title">Totals</div>
+    <div class="pick-list" id="totals"></div>
+  </section>
+
+  <section>
+    <div class="section-title">Recent Results</div>
+    <div class="pick-list" id="recent"></div>
+  </section>
+</div>
+
+<footer>
+  Educational &middot; research only &middot; not financial advice<br>
+  Model-driven edges from EPA, SP+, turnover margin, and form.
+</footer>
+
+<script>
+(function () {
+  var TAGS = { win: "WON", loss: "LOST", push: "PUSH", pending: "PENDING" };
+
+  function fmtUnits(v) {
+    if (v === null || v === undefined) return "—";
+    return (v > 0 ? "+" : "") + v.toFixed(1) + "u";
+  }
+
+  function fmtEl(tag, cls, text) {
+    var el = document.createElement(tag);
+    if (cls) el.className = cls;
+    if (text !== undefined) el.textContent = text;
+    return el;
+  }
+
+  function pickRow(p, opts) {
+    opts = opts || {};
+    var row = fmtEl("div", "pick-row" + (p.result === "win" ? " win" : p.result === "loss" ? " loss" : ""));
+
+    var badge = fmtEl("div", "pick-badge" + (p.result === "win" ? " win" : p.result === "loss" ? " loss" : ""),
+                       opts.showTier ? p.tier : (TAGS[p.result] || p.result));
+    row.appendChild(badge);
+
+    var main = fmtEl("div", "pick-main");
+    main.appendChild(fmtEl("div", "pick-game", p.game || ""));
+    main.appendChild(fmtEl("div", "pick-lean", p.pick || ""));
+    row.appendChild(main);
+
+    if (opts.numField === "units_pnl") {
+      var num = fmtEl("div", "pick-num " + (p.units_pnl > 0 ? "pos" : p.units_pnl < 0 ? "neg" : ""),
+                       fmtUnits(p.units_pnl));
+      row.appendChild(num);
+    } else if (opts.numField === "kelly") {
+      var kn = fmtEl("div", "pick-num", (p.kelly_pct != null ? p.kelly_pct.toFixed(1) + "u" : "—"));
+      row.appendChild(kn);
+    }
+    return row;
+  }
+
+  function renderList(id, picks, opts, emptyText) {
+    var el = document.getElementById(id);
+    el.innerHTML = "";
+    if (!picks || !picks.length) {
+      el.appendChild(fmtEl("div", "empty", emptyText));
+      return;
+    }
+    picks.forEach(function (p) { el.appendChild(pickRow(p, opts)); });
+  }
+
+  function stat(value, label, cls) {
+    var s = fmtEl("div", "stat");
+    s.appendChild(fmtEl("div", "stat-value " + (cls || ""), value));
+    s.appendChild(fmtEl("div", "stat-label", label));
+    return s;
+  }
+
+  fetch("data/cfb_picks.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var gen = new Date(d.generated_at);
+      document.getElementById("updated").textContent =
+        "Updated " + gen.toLocaleDateString(undefined, { month: "short", day: "numeric" }) +
+        " " + gen.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+
+      var statsEl = document.getElementById("stats");
+      var u = d.season.units;
+      statsEl.appendChild(stat(d.season.record, "Season Record"));
+      statsEl.appendChild(stat(u == null ? "—" : fmtUnits(u), "Season Units", u > 0 ? "pos" : u < 0 ? "neg" : ""));
+      var streakTxt = d.season.streak.n ? d.season.streak.dir + d.season.streak.n : "—";
+      statsEl.appendChild(stat(streakTxt, "Streak", d.season.streak.dir === "W" ? "pos" : d.season.streak.dir === "L" ? "neg" : ""));
+
+      renderList("strong", d.pending.strong, { numField: "kelly" }, "No pending Strong picks right now.");
+      renderList("moderate", d.pending.moderate, { numField: "kelly" }, "No Moderate watch picks right now.");
+      renderList("totals", d.pending.totals, { numField: "kelly" }, "No pending totals picks right now.");
+      renderList("recent", d.recent_results, { showTier: true, numField: "units_pnl" }, "No graded picks yet.");
+    })
+    .catch(function () {
+      document.getElementById("updated").textContent = "Couldn't load picks right now — try again shortly.";
+    });
+})();
+</script>
+
+</body>
+</html>
