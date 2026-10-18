@@ -1,65 +1,20 @@
 {
-  "generated_at": "2026-10-13T16:02:03+00:00",
+  "generated_at": "2026-10-18T16:01:57+00:00",
   "season": {
-    "record": "24-19-1",
-    "wins": 24,
-    "losses": 19,
+    "record": "25-22-1",
+    "wins": 25,
+    "losses": 22,
     "push": 1,
-    "units": 23.51,
+    "units": 20.77,
     "streak": {
       "dir": "L",
       "n": 3
     },
-    "rolling_win_pct": 0.5581,
-    "rolling_n": 43
+    "rolling_win_pct": 0.5319,
+    "rolling_n": 47
   },
   "pending": {
-    "strong": [
-      {
-        "game": "Ohio State @ Indiana",
-        "pick": "Indiana +3.5",
-        "tier": "Strong",
-        "bet_type": "spread",
-        "kickoff_iso": "2026-10-17T16:00:00Z",
-        "result": "pending",
-        "kelly_pct": 2.61,
-        "units_pnl": null,
-        "clv": null
-      },
-      {
-        "game": "Virginia @ SMU",
-        "pick": "Virginia +9.5",
-        "tier": "Strong",
-        "bet_type": "spread",
-        "kickoff_iso": "2026-10-17T16:00:00Z",
-        "result": "pending",
-        "kelly_pct": 1.26,
-        "units_pnl": null,
-        "clv": null
-      },
-      {
-        "game": "North Carolina @ Duke",
-        "pick": "Duke -3",
-        "tier": "Strong",
-        "bet_type": "spread",
-        "kickoff_iso": "2026-10-17T19:30:00Z",
-        "result": "pending",
-        "kelly_pct": 1.27,
-        "units_pnl": null,
-        "clv": null
-      },
-      {
-        "game": "Navy @ UTSA",
-        "pick": "Navy +6.5",
-        "tier": "Strong",
-        "bet_type": "spread",
-        "kickoff_iso": "2026-10-18T00:00:00Z",
-        "result": "pending",
-        "kelly_pct": 0.96,
-        "units_pnl": null,
-        "clv": null
-      }
-    ],
+    "strong": [],
     "moderate": [
       {
         "game": "Florida @ Texas",
@@ -128,32 +83,75 @@
         "clv": null
       }
     ],
-    "totals": [
-      {
-        "game": "Virginia @ SMU",
-        "pick": "Under 51.5",
-        "tier": "Total",
-        "bet_type": "total",
-        "kickoff_iso": "2026-10-17T16:00:00Z",
-        "result": "pending",
-        "kelly_pct": 0.12,
-        "units_pnl": null,
-        "clv": null
-      },
-      {
-        "game": "Florida Atlantic @ Army",
-        "pick": "Over 55.5",
-        "tier": "Total",
-        "bet_type": "total",
-        "kickoff_iso": "2026-10-17T16:00:00Z",
-        "result": "pending",
-        "kelly_pct": 1.57,
-        "units_pnl": null,
-        "clv": null
-      }
-    ]
+    "totals": []
   },
   "recent_results": [
+    {
+      "game": "Navy @ UTSA",
+      "pick": "Navy +6.5",
+      "tier": "Strong",
+      "bet_type": "spread",
+      "kickoff_iso": "2026-10-18T00:00:00Z",
+      "result": "win",
+      "kelly_pct": 0.96,
+      "units_pnl": 0.87,
+      "clv": 1.5
+    },
+    {
+      "game": "North Carolina @ Duke",
+      "pick": "Duke -3",
+      "tier": "Strong",
+      "bet_type": "spread",
+      "kickoff_iso": "2026-10-17T19:30:00Z",
+      "result": "loss",
+      "kelly_pct": 1.27,
+      "units_pnl": -1.27,
+      "clv": 0.0
+    },
+    {
+      "game": "Ohio State @ Indiana",
+      "pick": "Indiana +3.5",
+      "tier": "Strong",
+      "bet_type": "spread",
+      "kickoff_iso": "2026-10-17T16:00:00Z",
+      "result": "loss",
+      "kelly_pct": 2.61,
+      "units_pnl": -2.61,
+      "clv": 1.0
+    },
+    {
+      "game": "Virginia @ SMU",
+      "pick": "Virginia +9.5",
+      "tier": "Strong",
+      "bet_type": "spread",
+      "kickoff_iso": "2026-10-17T16:00:00Z",
+      "result": "loss",
+      "kelly_pct": 1.26,
+      "units_pnl": -1.26,
+      "clv": -0.5
+    },
+    {
+      "game": "Virginia @ SMU",
+      "pick": "Under 51.5",
+      "tier": "Total",
+      "bet_type": "total",
+      "kickoff_iso": "2026-10-17T16:00:00Z",
+      "result": "win",
+      "kelly_pct": 0.12,
+      "units_pnl": 0.1,
+      "clv": 1.0
+    },
+    {
+      "game": "Florida Atlantic @ Army",
+      "pick": "Over 55.5",
+      "tier": "Total",
+      "bet_type": "total",
+      "kickoff_iso": "2026-10-17T16:00:00Z",
+      "result": "win",
+      "kelly_pct": 1.57,
+      "units_pnl": 1.43,
+      "clv": 0.5
+    },
     {
       "game": "Boise State @ Fresno State",
       "pick": "Fresno State +6.5",
@@ -251,72 +249,6 @@
       "result": "win",
       "kelly_pct": 2.27,
       "units_pnl": 2.06,
-      "clv": null
-    },
-    {
-      "game": "Fresno State @ Washington State",
-      "pick": "Fresno State +1.5",
-      "tier": "Strong",
-      "bet_type": "spread",
-      "kickoff_iso": "2026-10-04T01:30:00Z",
-      "result": "win",
-      "kelly_pct": 3.47,
-      "units_pnl": 3.15,
-      "clv": null
-    },
-    {
-      "game": "Army @ Louisiana Tech",
-      "pick": "Army -1.5",
-      "tier": "Strong",
-      "bet_type": "spread",
-      "kickoff_iso": "2026-10-03T23:30:00Z",
-      "result": "loss",
-      "kelly_pct": 2.64,
-      "units_pnl": -2.64,
-      "clv": null
-    },
-    {
-      "game": "Washington @ USC",
-      "pick": "Washington +9.5",
-      "tier": "Strong",
-      "bet_type": "spread",
-      "kickoff_iso": "2026-10-03T23:30:00.000Z",
-      "result": "win",
-      "kelly_pct": 2.67,
-      "units_pnl": 2.43,
-      "clv": null
-    },
-    {
-      "game": "Temple @ South Florida",
-      "pick": "South Florida -6",
-      "tier": "Strong",
-      "bet_type": "spread",
-      "kickoff_iso": "2026-10-03T23:30:00.000Z",
-      "result": "loss",
-      "kelly_pct": 2.27,
-      "units_pnl": -2.27,
-      "clv": null
-    },
-    {
-      "game": "Army @ Louisiana Tech",
-      "pick": "Over 46.5",
-      "tier": "Total",
-      "bet_type": "total",
-      "kickoff_iso": "2026-10-03T23:30:00.000Z",
-      "result": "win",
-      "kelly_pct": 0.19,
-      "units_pnl": 0.17,
-      "clv": null
-    },
-    {
-      "game": "Arkansas @ Texas A&M",
-      "pick": "Arkansas +14",
-      "tier": "Strong",
-      "bet_type": "spread",
-      "kickoff_iso": "2026-10-03T23:00:00.000Z",
-      "result": "loss",
-      "kelly_pct": 2.93,
-      "units_pnl": -2.93,
       "clv": null
     }
   ]
