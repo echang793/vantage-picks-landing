@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:01:57+00:00",
+  "generated_at": "2026-10-21T15:08:08+00:00",
   "season": {
     "record": "25-22-1",
     "wins": 25,
@@ -14,55 +14,122 @@
     "rolling_n": 47
   },
   "pending": {
-    "strong": [],
-    "moderate": [
+    "strong": [
       {
-        "game": "Florida @ Texas",
-        "pick": "Florida +10.5",
-        "tier": "Watch",
+        "game": "New Mexico State @ Sam Houston",
+        "pick": "Sam Houston +2.5",
+        "tier": "Strong",
         "bet_type": "spread",
-        "kickoff_iso": null,
+        "kickoff_iso": "2026-10-22T00:00:00Z",
         "result": "pending",
-        "kelly_pct": 1.07,
+        "kelly_pct": 0.0,
         "units_pnl": null,
         "clv": null
       },
       {
-        "game": "Wake Forest @ California",
-        "pick": "California +9.5",
-        "tier": "Watch",
+        "game": "NC State @ Stanford",
+        "pick": "Stanford +6.5",
+        "tier": "Strong",
         "bet_type": "spread",
-        "kickoff_iso": null,
+        "kickoff_iso": "2026-10-24T02:30:00.000Z",
         "result": "pending",
-        "kelly_pct": 0.77,
+        "kelly_pct": 0.4,
         "units_pnl": null,
         "clv": null
       },
       {
-        "game": "Washington @ Purdue",
-        "pick": "Washington +3.5",
-        "tier": "Watch",
+        "game": "Oregon @ Illinois",
+        "pick": "Illinois +9.5",
+        "tier": "Strong",
         "bet_type": "spread",
-        "kickoff_iso": null,
+        "kickoff_iso": "2026-10-24T19:00:00Z",
         "result": "pending",
-        "kelly_pct": 0.32,
+        "kelly_pct": 0.23,
         "units_pnl": null,
         "clv": null
       },
       {
-        "game": "Rutgers @ Maryland",
-        "pick": "Rutgers +6",
-        "tier": "Watch",
+        "game": "Oklahoma @ Mississippi State",
+        "pick": "Mississippi State +4.5",
+        "tier": "Strong",
         "bet_type": "spread",
-        "kickoff_iso": null,
+        "kickoff_iso": "2026-10-24T19:30:00Z",
+        "result": "pending",
+        "kelly_pct": 0.6,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "UL Monroe @ Troy",
+        "pick": "UL Monroe +14.5",
+        "tier": "Strong",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-10-24T20:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.21,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Colorado @ Oklahoma State",
+        "pick": "Colorado +13.5",
+        "tier": "Strong",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-10-24T23:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.35,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "USC @ Wisconsin",
+        "pick": "Wisconsin +3",
+        "tier": "Strong",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-10-24T23:30:00Z",
         "result": "pending",
         "kelly_pct": 0.27,
         "units_pnl": null,
         "clv": null
+      }
+    ],
+    "moderate": [
+      {
+        "game": "Rutgers @ Northwestern",
+        "pick": "Rutgers +16.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.2,
+        "units_pnl": null,
+        "clv": null
       },
       {
-        "game": "Florida Atlantic @ Army",
-        "pick": "Army -2.5",
+        "game": "Texas Tech @ Cincinnati",
+        "pick": "Cincinnati +10.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.24,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Boise State @ Washington State",
+        "pick": "Washington State +13.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.1,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Air Force @ Wyoming",
+        "pick": "Wyoming +5.5",
         "tier": "Watch",
         "bet_type": "spread",
         "kickoff_iso": null,
@@ -72,8 +139,52 @@
         "clv": null
       },
       {
-        "game": "Akron @ Miami (OH)",
-        "pick": "Akron +9.5",
+        "game": "Tennessee @ South Carolina",
+        "pick": "Tennessee +2.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.04,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Kansas State @ Arizona State",
+        "pick": "Kansas State -3.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Georgia State @ Arkansas State",
+        "pick": "Georgia State -2.5",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.03,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Bowling Green @ Buffalo",
+        "pick": "Buffalo -3",
+        "tier": "Watch",
+        "bet_type": "spread",
+        "kickoff_iso": null,
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Rice @ Florida Atlantic",
+        "pick": "Rice +7.5",
         "tier": "Watch",
         "bet_type": "spread",
         "kickoff_iso": null,
@@ -83,7 +194,74 @@
         "clv": null
       }
     ],
-    "totals": []
+    "totals": [
+      {
+        "game": "Air Force @ Wyoming",
+        "pick": "Under 45.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T01:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.65,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "NC State @ Stanford",
+        "pick": "Over 55.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T02:30:00.000Z",
+        "result": "pending",
+        "kelly_pct": 1.15,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Texas Tech @ Cincinnati",
+        "pick": "Under 56.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T16:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.8,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Rice @ Florida Atlantic",
+        "pick": "Under 51.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T16:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.93,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Oregon @ Illinois",
+        "pick": "Under 50.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T19:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.11,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "USC @ Wisconsin",
+        "pick": "Under 49.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-10-24T23:30:00Z",
+        "result": "pending",
+        "kelly_pct": 1.45,
+        "units_pnl": null,
+        "clv": null
+      }
+    ]
   },
   "recent_results": [
     {
