@@ -172,13 +172,8 @@
   <div class="stats-row" id="stats"></div>
 
   <section>
-    <div class="section-title">Strong Picks</div>
+    <div class="section-title">Picks</div>
     <div class="pick-list" id="strong"></div>
-  </section>
-
-  <section>
-    <div class="section-title">Moderate &middot; Watch Only</div>
-    <div class="pick-list" id="moderate"></div>
   </section>
 
   <section>
@@ -269,8 +264,7 @@
       var streakTxt = d.season.streak.n ? d.season.streak.dir + d.season.streak.n : "—";
       statsEl.appendChild(stat(streakTxt, "Streak", d.season.streak.dir === "W" ? "pos" : d.season.streak.dir === "L" ? "neg" : ""));
 
-      renderList("strong", d.pending.strong, { numField: "kelly" }, "No pending Strong picks right now.");
-      renderList("moderate", d.pending.moderate, { numField: "kelly" }, "No Moderate watch picks right now.");
+      renderList("strong", d.pending.strong, { numField: "kelly" }, "No pending picks right now.");
       renderList("totals", d.pending.totals, { numField: "kelly" }, "No pending totals picks right now.");
       renderList("recent", d.recent_results, { showTier: true, numField: "units_pnl" }, "No graded picks yet.");
     })
