@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:42:31+00:00",
+  "generated_at": "2026-11-17T17:02:09+00:00",
   "season": {
     "record": "37-38-2",
     "wins": 37,
@@ -14,9 +14,187 @@
     "rolling_n": 50
   },
   "pending": {
-    "strong": [],
+    "strong": [
+      {
+        "game": "Miami (OH) @ Kent State",
+        "pick": "Kent State +9.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-18T00:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.25,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "New Mexico @ Wyoming",
+        "pick": "Wyoming +7.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T02:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Ohio State @ Nebraska",
+        "pick": "Nebraska +3",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "East Carolina @ Army",
+        "pick": "East Carolina +5.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.4,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "BYU @ Kansas",
+        "pick": "Kansas +5.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Colorado @ Cincinnati",
+        "pick": "Colorado +3",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Houston @ West Virginia",
+        "pick": "West Virginia +8.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T18:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Middle Tennessee @ Sam Houston",
+        "pick": "Sam Houston +5.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T19:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "UL Monroe @ App State",
+        "pick": "UL Monroe +14",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T19:30:00Z",
+        "result": "pending",
+        "kelly_pct": 0.44,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Florida International @ Kennesaw State",
+        "pick": "Kennesaw State -3.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T20:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.67,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "NC State @ Florida State",
+        "pick": "NC State +9.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T20:30:00.000Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Indiana @ Washington",
+        "pick": "Washington +7.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-21T20:30:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Arizona @ Kansas State",
+        "pick": "Kansas State +7",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-22T00:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Utah @ TCU",
+        "pick": "TCU +7",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-22T02:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.17,
+        "units_pnl": null,
+        "clv": null
+      }
+    ],
     "moderate": [],
-    "totals": []
+    "totals": [
+      {
+        "game": "Houston @ West Virginia",
+        "pick": "Under 70.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-11-21T18:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "NC State @ Florida State",
+        "pick": "Under 56.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-11-21T20:30:00.000Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      }
+    ]
   },
   "recent_results": [
     {
