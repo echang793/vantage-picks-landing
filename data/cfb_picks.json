@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:02:50+00:00",
+  "generated_at": "2026-11-24T17:01:33+00:00",
   "season": {
     "record": "47-41-3",
     "wins": 47,
@@ -14,9 +14,110 @@
     "rolling_n": 50
   },
   "pending": {
-    "strong": [],
+    "strong": [
+      {
+        "game": "TCU @ Texas Tech",
+        "pick": "TCU +14",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-27T01:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.95,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "UConn @ Wyoming",
+        "pick": "Wyoming +3",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-28T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Louisville @ Kentucky",
+        "pick": "Louisville -3",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-28T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.33,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Michigan @ Ohio State",
+        "pick": "Michigan +10.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-28T17:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.25,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Marshall @ UL Monroe",
+        "pick": "UL Monroe +5.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-28T18:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.47,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Michigan State @ Rutgers",
+        "pick": "Rutgers +3.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-28T21:15:00Z",
+        "result": "pending",
+        "kelly_pct": 0.44,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Tennessee @ Vanderbilt",
+        "pick": "Vanderbilt +13.5",
+        "tier": "Pick",
+        "bet_type": "spread",
+        "kickoff_iso": "2026-11-29T00:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.14,
+        "units_pnl": null,
+        "clv": null
+      }
+    ],
     "moderate": [],
-    "totals": []
+    "totals": [
+      {
+        "game": "Miami (OH) @ Western Michigan",
+        "pick": "Under 45.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-11-25T00:00:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      },
+      {
+        "game": "Cincinnati @ BYU",
+        "pick": "Under 56.5",
+        "tier": "Total",
+        "bet_type": "total",
+        "kickoff_iso": "2026-11-28T20:30:00Z",
+        "result": "pending",
+        "kelly_pct": 0.0,
+        "units_pnl": null,
+        "clv": null
+      }
+    ]
   },
   "recent_results": [
     {
